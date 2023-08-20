@@ -21,5 +21,5 @@ int main()
     }
     withoutio_e = clock();
 
-    printf("With IO: %f Without IO: %f\n", (double)(withio_e - withio_s),(double)(withoutio_e - withoutio_s));
+    printf("With IO: %f Without IO: %f\n", (double)(withio_e - withio_s), (double)(withoutio_e - withoutio_s));
 }
