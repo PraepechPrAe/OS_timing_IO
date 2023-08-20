@@ -8,14 +8,14 @@ int main()
     clock_t withoutio_s, withoutio_e;
 
     withio_s = clock();
-    for(int i=0; i<100; i++)
+    for(int i=0; i<10; i++)
     {
         printf("E\n");
     }
     withio_e = clock();
 
     withoutio_s = clock();
-    for(int i=0; i<100; i++)
+    for(int i=0; i<10; i++)
     {
         a+=1;
     }
